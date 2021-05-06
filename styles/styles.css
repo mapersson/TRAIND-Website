@@ -1,0 +1,288 @@
+/* Overall
+-------------------------------------------*/
+html {
+  font-family: "Lato", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: bold;
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: -0.02em;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: -0.02em;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 140%;
+}
+
+/* Header
+----------------------------------------- */
+header {
+  position: relative;
+  width: 100%;
+  height: 137px;
+}
+
+.logo {
+  position: relative;
+  width: 174px;
+  height: 38px;
+  left: 28px;
+  top: 32px;
+}
+
+nav {
+  width: 45%;
+  margin: 0 27.5%;
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+
+.how_it_works {
+  color: #7c7d16;
+}
+
+.sign_in {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  background-color: transparent;
+  border: none;
+}
+
+/* Welcome
+-------------------------------------------*/
+
+.welcome {
+  position: relative;
+  height: 750px;
+  background-color: #000000;
+}
+
+.welcome::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 750px;
+  background-image: url(/images/background.png);
+  background-position: top -5px center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+}
+
+.welcome_content {
+  position: relative;
+  height: 750px;
+}
+.title {
+  position: absolute;
+  top: 34%;
+  left: 14%;
+  color: #fff;
+  white-space: nowrap;
+}
+
+.sub_title {
+  position: absolute;
+  top: 50%;
+  left: 14%;
+  width: 400px;
+  font-weight: normal;
+  font-size: 24px;
+  color: #fff;
+}
+
+.coming_soon {
+  position: absolute;
+  top: 80%;
+  left: 38%;
+  width: 332px;
+  height: 99px;
+  background-color: #7c7d16;
+  border-color: transparent;
+  border-radius: 80px;
+  box-shadow: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+/* Session Options
+-------------------------------------------*/
+
+.session_options {
+  padding: 80px 10px;
+}
+
+.select_session {
+  color: black;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  row-gap: 30px;
+  column-gap: 30px;
+}
+
+.grid-item {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  padding-top: 66.6%;
+  background-size: 150%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.sess_opt_heading {
+  position: absolute;
+  top: 50%;
+  width: 100px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  text-align: center;
+}
+
+.one_on_one {
+  background-image: url(/images/yoga-instructor-patio.png);
+}
+
+.group_session {
+  background-image: url(/images/yoga-class.jpeg);
+}
+
+.outdoor {
+  background-image: url(/images/sunrise-hills.jpeg);
+}
+
+.water_sports {
+  background-image: url(/images/paddle-boarding.jpeg);
+}
+
+.virtual {
+  background-image: url(/images/yoga-livingroom.jpeg);
+}
+
+.equipment {
+  background-image: url(/images/garage-gym.jpeg);
+}
+
+/* Join TRAIND
+-------------------------------------------*/
+
+.join_traind {
+  margin: 0 1%;
+}
+
+.join_traind_img {
+  width: 100%;
+  height: 760px;
+  background-image: url(/images/join_traind.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top -200px center;
+  border-radius: 50px;
+}
+
+/* Sign-up Options
+-------------------------------------------*/
+
+.signup_option {
+  margin: 0 1%;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-item {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+}
+
+.signup_options {
+  background-color: transparent;
+  text-align: center;
+}
+
+button {
+  border-color: transparent;
+}
+
+.img_signup_options {
+  width: 50%;
+}
+
+/* Footer
+___________________________________________*/
+footer {
+  height: 384px;
+  background-color: #000000;
+}
+
+.sm_icons-flex-container {
+  position: relative;
+  top: 33%;
+  width: 66%;
+  margin: 0 16%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.sm_icons-flex-item {
+  background-color: transparent;
+}
+
+.sm_icons {
+  min-width: 25px;
+  max-width: 45px;
+}
+
+.insta {
+  padding: 2px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+p {
+  position: relative;
+  top: 66%;
+  color: #fff;
+  text-align: center;
+}
