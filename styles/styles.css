@@ -170,7 +170,7 @@ a {
 .sess_opt_heading {
   position: absolute;
   top: 50%;
-  width: 100px;
+  width: auto;
   padding: 10px;
   border-radius: 20px;
   background-color: rgba(0, 0, 0, 0.6);
